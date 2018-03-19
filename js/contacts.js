@@ -51,7 +51,7 @@ console.log(messageAccueil);
 var option=3; //Le choix de 3 est utilisé juste pour initialiser la variable choix et n'a aucun sens ;-)
 
 while(option!==0){
-    console.log(" 1 : Lister les contacts \n 2 : Ajouter un contact \n 3 : Quitter ");
+    console.log(" 1 : Lister les contacts \n 2 : Ajouter un contact \n 0 : Quitter ");
     option= prompt("Choisissez une option: ").trim();   //trim : pour ne pas prendre d'espace utile surtout pour la condition suivante
     if(option!==""){    // Cette condition est faite pour que la chaine vide "" ne soit pas convertit en 0
         option=Number(option);
