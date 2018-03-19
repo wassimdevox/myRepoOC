@@ -12,10 +12,12 @@ Activité : gestion des contacts
 var contact = {
     nom:"",
     prenom:"",
+    id:"",
     afficherContact:function(){
-        console.log("contact : nom='"+this.nom+"' , prenom='"+this.prenom+"'");
+        console.log("contact : nom = '"+this.nom+"' , prenom = '"+this.prenom+"' , #id = '"+this.id+"'");
     },
-    init: function(nom,prenom){
+    init: function(id,nom,prenom){
+        this.id=id;
         this.nom=nom;
         this.prenom=prenom;
     }
