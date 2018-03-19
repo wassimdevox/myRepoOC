@@ -42,6 +42,7 @@ var afficherToutContacts=function(){
 //les 2 contacts à inserer initialement 
 ajouterContact("Lévisse","Carole");
 ajouterContact("Nelsonne","Mélodie");
+ajouterContact("Hello","World");
 
 //mesage d accueil
 var messageAccueil = "Bienvenue dans le gestionnaire de contacts";
